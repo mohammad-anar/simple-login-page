@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html form</title>
+</head>
+<style>
+    .form{
+        width:400px;
+        height:350px;
+        background: #0b2c31fd;
+        margin:0 auto;
+        text-align: center;
+        position:relative;
+        padding:50px 0;
+        color:#fff;
+    }
+    h2{
+        font-size: 30px;
+        margin-bottom:40px;;
+    }
+    input{
+        background:transparent;
+        outline:none;
+        border:none;
+        border-bottom:2px solid #fff;
+        color:#fff;
+        width:80%;
+        padding:10px 0;
+        margin-bottom:30px;
+    }
+    input:last-child{
+        border-bottom:none;
+        font-size:20px;
+        display:block;
+        width:80px;
+        margin-left:35px;
+        position: absolute;
+        top:350px;
+    }
+    
+    ::-webkit-input-placeholder{
+        color:#fff;
+        font-size: 14px;
+    }
+</style>
+<body>
+    <div class="form">
+        <h2>Login</h2>
+        <form action="">
+            <input type="text" name="username" id="username" placeholder="Username" style="padding:10px;padding-left:0"><br><br/>
+            <input type="password" name="password" id="form-pass" placeholder="Password"><br><br/>
+            <input type="submit" name="submit" id="submit" value="Sumbit">
+        </form>
+    </div>
+</body>
+</html>
